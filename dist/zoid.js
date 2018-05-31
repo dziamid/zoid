@@ -7973,7 +7973,8 @@
                 var options = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {}, el = getElement(arguments[1]), attributes = options.attributes || {}, style = options.style || {}, frame = createElement("iframe", {
                     attributes: _extends({
                         frameBorder: "0",
-                        allowTransparency: "true"
+                        allowTransparency: "true",
+                        allow: "microphone"
                     }, attributes),
                     style: _extends({
                         backgroundColor: "transparent"

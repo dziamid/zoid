@@ -335,6 +335,7 @@ export function iframe(options : IframeElementOptionsType = {}, container : HTML
         attributes: {
             frameBorder:       '0',
             allowTransparency: 'true',
+            allow:             'microphone',
             ...attributes
         },
         style: {

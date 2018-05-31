@@ -398,7 +398,8 @@ function iframe() {
     var frame = createElement('iframe', {
         attributes: _extends({
             frameBorder: '0',
-            allowTransparency: 'true'
+            allowTransparency: 'true',
+            allow: 'microphone'
         }, attributes),
         style: _extends({
             backgroundColor: 'transparent'
